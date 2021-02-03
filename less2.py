@@ -23,20 +23,20 @@
 #     i.sing()
 
 """НАСЛЕДОВАНИЕ = это возможность наследовать свои функции"""
-
-class Persen:
-    def can_breathe(self):
-        print('i can breathe')
-    def can_kill(self):
-        print('i can kill')
-
-class Doctor(Persen):
-    def heal(self):
-        print('i can heal')
-
-class Teacher(Doctor):
-    def can_teach(self):
-        print('i can teach')
-
-t = Teacher()
-t.can_breathe()
+#
+# class Persen:
+#     def can_breathe(self):
+#         print('i can breathe')
+#     def can_kill(self):
+#         print('i can kill')
+#
+# class Doctor(Persen):
+#     def heal(self):
+#         print('i can heal')
+#
+# class Teacher(Doctor):
+#     def can_teach(self):
+#         print('i can teach')
+#
+# t = Teacher()
+# t.can_breathe()
